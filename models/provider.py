@@ -9,7 +9,7 @@ class ProviderModel(dbsupcatalogy.Model):
     name = dbsupcatalogy.Column(dbsupcatalogy.String(80))
     cnpj = dbsupcatalogy.Column(dbsupcatalogy.String(20))
     city = dbsupcatalogy.Column(dbsupcatalogy.String(20))
-    product = dbsupcatalogy.relationship('ProductModel')  # lista os objetos products
+    product = dbsupcatalogy.relationship('ProductModel')  
 
     def __init__(self, name, cnpj, city):
         self.name = name,
