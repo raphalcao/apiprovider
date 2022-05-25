@@ -27,7 +27,7 @@ prometheus-client==0.7.1
 prompt-toolkit==3.0.3
 pycodestyle==2.6.0
 Pygments==2.5.2
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylint==2.5.2
 PyMySQL==0.9.3
 pyrsistent==0.15.7
